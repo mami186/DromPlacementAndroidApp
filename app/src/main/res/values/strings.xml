@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">HUDormPlacementAPK</string>
+    <string name="signin">Sign In</string>
+    <string name="email">Username</string>
+    <string name="Password">Password</string>
+    <string name="stud_name">Student Name</string>
+    <string name="UID">Student ID</string>
+    <string name="dep">Department</string>
+    <string name="year">Year</string>
+    <string name="dorm_name">Dorm Number</string>
+    <string name="acc">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="dormitory">Dorm Info</string>
+    <string name="Profile">Profile</string>
+    <string name="n_email">New Username</string>
+    <string name="n_pass">New Password</string>
+    <string name="Submit">Save</string>
+    <string name="Change">Change</string>
+    <string name="icon_button">Language Switch</string>
+</resources>

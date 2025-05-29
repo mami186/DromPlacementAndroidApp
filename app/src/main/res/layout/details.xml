@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- Your main content below -->
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="115dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="48dp"
+        android:text="@string/stud_name"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvtitle"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <TextView
+        android:id="@+id/tvtitle"
+        android:layout_width="361dp"
+        android:layout_height="106dp"
+        android:text="@string/dormitory"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.139" />
+
+
+    <TextView
+        android:id="@+id/tvsid"
+        android:layout_width="115dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/UID"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvname" />
+
+    <TextView
+        android:id="@+id/sid"
+        android:layout_width="101dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:text="201"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/tvsid"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="101dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:text="Name"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/tvname"
+        app:layout_constraintTop_toBottomOf="@+id/tvtitle" />
+
+    <TextView
+        android:id="@+id/department"
+        android:layout_width="101dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:text="CS"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/tvdepartment"
+        app:layout_constraintTop_toBottomOf="@+id/sid" />
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="101dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text=" 1"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/tvyear"
+        app:layout_constraintTop_toBottomOf="@+id/department" />
+
+    <TextView
+        android:id="@+id/dormid"
+        android:layout_width="101dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="dormNumber"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/tvdormid"
+        app:layout_constraintTop_toBottomOf="@+id/year" />
+
+    <TextView
+        android:id="@+id/tvdepartment"
+        android:layout_width="115dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/dep"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvsid" />
+
+    <TextView
+        android:id="@+id/tvdormid"
+        android:layout_width="115dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="48dp"
+
+        android:layout_marginTop="8dp"
+        android:text="@string/dorm_name"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvyear" />
+
+    <TextView
+        android:id="@+id/tvyear"
+        android:layout_width="115dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/year"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvdepartment" />
+
+    <Button
+        android:id="@+id/account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/acc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvdormid" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/logout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/account" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
