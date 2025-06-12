@@ -49,7 +49,7 @@
 
     <TextView
         android:id="@+id/sid"
-        android:layout_width="101dp"
+        android:layout_width="201dp"
         android:layout_height="28dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="12dp"
@@ -60,7 +60,7 @@
 
     <TextView
         android:id="@+id/name"
-        android:layout_width="101dp"
+        android:layout_width="201dp"
         android:layout_height="28dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
@@ -71,7 +71,7 @@
 
     <TextView
         android:id="@+id/department"
-        android:layout_width="101dp"
+        android:layout_width="201dp"
         android:layout_height="28dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="12dp"
@@ -82,7 +82,7 @@
 
     <TextView
         android:id="@+id/year"
-        android:layout_width="101dp"
+        android:layout_width="201dp"
         android:layout_height="28dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
@@ -93,7 +93,7 @@
 
     <TextView
         android:id="@+id/dormid"
-        android:layout_width="101dp"
+        android:layout_width="201dp"
         android:layout_height="28dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
